@@ -1,0 +1,93 @@
+/* Main Components */
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+.container {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+/* Calculator */
+
+#calculator {
+	width: 300px;
+	height: 400px;
+}
+#calculator th td {
+	padding: 0px;
+}
+
+#display {
+	height: 90px;
+	font-size: 2em;
+}
+.button,
+#equal-btn {
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+	font-size: 2em;
+}
+#ac-btn {
+	background-color: #00695c;
+}
+#one-btn,
+#two-btn,
+#three-btn,
+#four-btn,
+#five-btn,
+#six-btn,
+#seven-btn,
+#eight-btn,
+#nine-btn,
+#zero-btn,
+#decimal-btn {
+	background-color: #009688;
+}
+#div-btn,
+#add-btn,
+#sub-btn,
+#mult-btn,
+#equal-btn {
+	background-color: #f9a825;
+}
+
+#calculator thead {
+	background-color: #004d40;
+	font-size: 15px;
+	color: white;
+}
+
+/* Set History Table */
+
+#set_history {
+	width: 300px;
+}
+#set_history th {
+	background-color: #424242;
+	color: white;
+}
+#set_history td,
+#set_history th {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	padding: 6px;
+	text-align: center;
+	margin-top: 10px;
+}
+#history-title {
+	height: 70px;
+}
+#clear-btn,
+.run-btn {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	background-color: #757575;
+	color: white;
+	border: none;
+}

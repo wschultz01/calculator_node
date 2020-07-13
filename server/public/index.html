@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jQuery Server Side Calculator</title>
+        <script src="vendors/jQuery.js"></script>
+        <script src="scripts/client.js"></script>
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <table id="calculator">
+                <thead>
+                    <tr id="display">
+                        <th colspan="4" id="cal-display"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3"><button type="button" class="button" id="ac-btn">AC</button></td>
+                        <td><button type="button" class="button" id="div-btn" value="/">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" class="button" id="seven-btn" value="7">7</button></td>
+                        <td><button type="button" class="button" id="eight-btn" value="8">8</button></td>
+                        <td><button type="button" class="button" id="nine-btn" value="9">9</button></td>
+                        <td><button type="button" class="button" id="mult-btn" value="*">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" class="button" id="four-btn" value="4">4</button></td>
+                        <td><button type="button" class="button" id="five-btn" value="5">5</button></td>
+                        <td><button type="button" class="button" id="six-btn" value="6">6</button></td>
+                        <td><button type="button" class="button" id="sub-btn" value="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" class="button" id="one-btn" value="1">1</button></td>
+                        <td><button type="button" class="button" id="two-btn" value="2">2</button></td>
+                        <td><button type="button" class="button" id="three-btn" value="3">3</button></td>
+                        <td><button type="button" class="button" id="add-btn" value="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="button" class="button" id="zero-btn" value="0">0</button></td>
+                        <td><button type="button" class="button" id="decimal-btn" value=".">.</button></td>
+                        <td><button type="button" id="equal-btn" value="=">=</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <table id="set_history">
+                <thead>
+                    <tr id="history-title">
+                        <th colspan="4">Operational Set History</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Clear History</th>
+                        <th colspan="2"><button type="button" id="clear-btn">Delete</button></th>
+                    </tr>
+                    <tr>
+                        <th colspan="1">Index</th>
+                        <th colspan="2">Operational Set</th>
+                        <th colspan="1">Run</th>
+                    </tr>
+                </thead>
+                <tbody id="history_results">
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+</html>
